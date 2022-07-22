@@ -27,7 +27,7 @@ ARG TIMESTAMP
 RUN echo $TIMESTAMP > /dev/null
 
 # Clone the repositories
-RUN git clone --recursive https://github.com/ucsb-seclab/sailfish.git sailfish
+RUN git clone --recursive https://github.com/DivyaRathore09/sailfish.git sailfish
 RUN git clone https://github.com/ucsb-seclab/slither-sailfish.git slither
 RUN git clone https://github.com/dipanjan/solc-binaries.git
 
