@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-contract Reentrancy {
+contract single_Func_reentrancy {
     mapping (address => uint) userBalance;
    
     function getBalance(address u) view public returns(uint){
